@@ -10,11 +10,11 @@
 
     $dbServer      = 'localhost';
 
-    $dbDatabase    = 'newsworl_qk_org_sa';
+    $dbDatabase    = 'instituteqk';
 
-    $dbUser        = 'newsworl_qk_org';
+    $dbUser        = 'root';
 
-    $dbPass        = 'a3npk9=rK6y+';
+    $dbPass        = '';
 
     $pdo 			= new PdoWrapper();
 

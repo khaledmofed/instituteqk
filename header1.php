@@ -59,22 +59,22 @@
       <!-- twitter css -->
       <link rel="stylesheet" href="<?= $site_url ?>/assets/plugin/sp_tweet/assets/css/sp_tweet.default.css" type="text/css" />
 
-<!-----------khaled css ------------->
-<link href="css/owl.carousel.css" rel="stylesheet">
-<link rel="stylesheet"  href="css/hover.css"/>
-<!-- Custom CSS -->
-<link href="khaled/css/owl.carousel.css" rel="stylesheet">
-<link rel="stylesheet"  href="khaled/css/hover.css"/>
-<link rel="stylesheet" href="khaled/css/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="khaled/css/light.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="khaled/css/dark.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="khaled/css/bar.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="khaled/css/nivo-slider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="khaled/css/nivostyle.css" type="text/css" media="screen" />
-    <link href="khaled/css/bootstrap-rtl.css" rel="stylesheet">
-    <link href="khaled/css/style.css" rel="stylesheet">
-<link rel="stylesheet"  href="khaled/css/font.css"/>
+<!--khaled css -->
 
+<link rel="stylesheet"  href="<?= $site_url ?>/frontend2/font-awesome-4.5.0/css/font-awesome.min.css">
+<link href="<?= $site_url ?>/frontend2/css/owl.carousel.css" rel="stylesheet">
+<link rel="stylesheet"  href="<?= $site_url ?>/frontend2/css/hover.css"/>
+<!-- Custom CSS -->
+
+<link rel="stylesheet" href="<?= $site_url ?>/frontend2/css/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?= $site_url ?>/frontend2/css/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?= $site_url ?>/frontend2/css/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?= $site_url ?>/frontend2/css/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?= $site_url ?>/frontend2/css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?= $site_url ?>/frontend2/css/nivostyle.css" type="text/css" media="screen" />
+    <link href="<?= $site_url ?>/frontend2/css/bootstrap-rtl.css" rel="stylesheet">
+    <link href="<?= $site_url ?>/frontend2/css/style.css" rel="stylesheet">
+<link rel="stylesheet"  href="<?= $site_url ?>/frontend2/css/font.css"/>
        
       <style>
 	  #sp-header, #sp-bottom {
@@ -170,7 +170,7 @@
 <nav class="navbar navbar-default" style="   border-top: 5px solid #a01b63 ;">
   <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#"><img src="khaled/img/11.png"></a>
+      <a class="navbar-brand" href="#"><img src="<?= $site_url ?>/frontend2/img/11.png"></a>
     </div>
     <ul class="nav navbar-nav">
     <div style="      padding-left: 15px;

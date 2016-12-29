@@ -1,104 +1,103 @@
-         <!-- start bottom area -->
-         <section id="sp-bottom">
-            <div class="container">
-               <div class="row">
-                  <!-- start about -->
-                  <div id="sp-bottom1" class="col-sm-6 col-md-3">
-                     <div class="sp-column ">
-                        <div class="sp-module ">
-                           <div class="sp-module-content">
-                              <ul>
-								<?
-                                $sql_footer_menu = $pdo->pdoGetAll("SELECT * FROM `footer_menu` WHERE block='1' AND insert_id=".$institute_id." ORDER BY `id` ASC");
-                                foreach($sql_footer_menu as $result_footer_menu) {
-                                ?>
-                              <li><a href="<?= $result_footer_menu['link'] ?>"><?= $result_footer_menu['title'] ?></a></li>
-								<? } ?>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div id="sp-bottom1" class="col-sm-6 col-md-3">
-                     <div class="sp-column ">
-                        <div class="sp-module ">
-                           <div class="sp-module-content">
-                              <ul>
-								<?
-                                $sql_footer_menu = $pdo->pdoGetAll("SELECT * FROM `footer_menu` WHERE block='2' AND insert_id=".$institute_id." ORDER BY `id` ASC");
-                                foreach($sql_footer_menu as $result_footer_menu) {
-                                ?>
-                              <li><a href="<?= $result_footer_menu['link'] ?>"><?= $result_footer_menu['title'] ?></a></li>
-								<? } ?>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- end about -->
-                  <!-- start twitter feed -->
-                  <div id="sp-bottom2" class="col-sm-6 col-md-3">
-                     <div class="sp-column">
-                        <div class="sp-module">
-                           <div class="sp-module-content">
-                              <ul>
-								<?
-                                $sql_footer_menu = $pdo->pdoGetAll("SELECT * FROM `footer_menu` WHERE block='3' AND insert_id=".$institute_id." ORDER BY `id` ASC");
-                                foreach($sql_footer_menu as $result_footer_menu) {
-                                ?>
-                              <li><a href="<?= $result_footer_menu['link'] ?>"><?= $result_footer_menu['title'] ?></a></li>
-								<? } ?>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- end twitter feed -->
-                  <!-- start gallery -->
-                  <div id="sp-bottom3" class="col-sm-6 col-md-3">
-                     <div class="sp-column ">
-                        <div class="sp-module grand_gallary">
-                           <div class="sp-module-content">
-                              <ul>
-								<?
-                                $sql_footer_menu = $pdo->pdoGetAll("SELECT * FROM `footer_menu` WHERE block='4' AND insert_id=".$institute_id." ORDER BY `id` ASC");
-                                foreach($sql_footer_menu as $result_footer_menu) {
-                                ?>
-                              <li><a href="<?= $result_footer_menu['link'] ?>"><?= $result_footer_menu['title'] ?></a></li>
-								<? } ?>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- end gallery -->
-               </div>
-            </div>
-         </section>
-         <!-- end bottom area -->
-         <!-- start footer -->
-         <footer id="sp-footer">
-            <div class="container">
-               <div class="row">
-                  <div id="sp-footer1" class="col-sm-6 col-md-6">
-                     <div class="sp-column "><span class="sp-copyright">جميع الحقوق محفوظة لجمعيه التأهيل</span> <a href="#" style="margin-right:20px;">برمجة وتصميم : الاحلام ديزاين || Dreams Design</a></div>
-                  </div>
-                  <div class="col-sm-6 col-md-6">
-                     <div class="sp-column ">
-                        <ul class="social-icons">
-                           <li><a target="_blank" href="<?= $facebook ?>"><i class="fa fa-facebook"></i></a></li>
-                           <li><a target="_blank" href="<?= $twitter ?>"><i class="fa fa-twitter"></i></a></li>
-                           <li><a target="_blank" href="<?= $googleplus ?>"><i class="fa fa-google-plus"></i></a></li>
-                           <li><a target="_blank" href="<?= $instagram ?>"><i class="fa fa-instagram"></i></a></li>
-                           <li><a target="_blank" href="<?= $youtube ?>"><i class="fa fa-youtube"></i></a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </footer>
-         <!-- end footer -->
+ <!--start footer section-->
+<section class="footer text-center">
+<div class="container">
+<div class="">
+<div class="col-lg-4 col-md-6">
+<h3 class="text-right orng">نبذة عن الجمعية</h3>
+<ul class="list-unstyled three-columns text-right rabet">
+  <li><img style="    width: 160px;" src="<?= $site_url ?>/frontend2/img/11.png"></li>
+  <li>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي </li>
+  
+</ul>
+
+</div>
+
+
+
+ <div class="col-lg-4">
+<h3 class="text-right orng">هنا عنوان الروابط</h3> 
+<ul class="list-unstyled three-columns text-right rabet">
+  <li>الرابط الاول</li>
+  <li>الرابط الثاني</li>
+  <li>الرابط الثالث</li>
+  <li>الرابط الرابع</li>
+  <li>الرابط الخامس</li>
+  
+  <li>الرابط السادس</li>
+</ul>
+</div>
+
+
+</div>
+
+  <div class="col-lg-4 col-md-6">
+<h3 class="text-right orng"> جديد تويتر</h3> 
+<div class="media">
+ 
+    <a class="pull" href="#">
+      <img class="media-object" src="<?= $site_url ?>/frontend2/img/log1.png" alt="g3"/></a>
+  <div class="media-body rabet">
+    <h4 class="media-heading"> @QURAN جمعية القران الكريم </h4>
+    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص 
+</div>
+</div>
+<hr class="hr">
+<div class="media">
+ 
+    <a class="pull" href="#">
+      <img class="media-object" src="<?= $site_url ?>/frontend2/img/log1.png" alt="g3"/></a>
+  <div class="media-body rabet">
+ <h4 class="media-heading"> @QURAN جمعية القران الكريم </h4>
+    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص 
+</div>
+</div>
+<hr class="hr">
+<div class="media">
+ 
+    <a class="pull" href="#">
+      <img class="media-object" src="<?= $site_url ?>/frontend2/img/log1.png" alt="g3"/></a>
+  <div class="media-body rabet">
+ <h4 class="media-heading"> @QURAN جمعية القران الكريم </h4>
+    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص 
+</div>
+
+</div>
+
+</div>
+
+<div class="copyright text-center" style="color: #666;">
+</div>
+<br>
+<br>
+<br>
+<hr>
+<div style="color: #000;    padding-bottom: 40px;">ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ</div>
+<div style="color: #666;">كافة الحقوق محفوظة للجمعية<span> 2016 - 2017 </span> </div>
+
+    <div class="social_link ">
+<ul class="social-links circle small ">
+<div class="twt">
+        <li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter-square fa-lg"></i></a></li></div>
+
+   <div class="twt">    
+        <li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype fa-lg"></i></a></li></div>
+ <div class="twt" id="in"> 
+        <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin fa-lg"></i></a></li></div>
+  <div class="twt" id="gog">                 
+        <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus fa-lg"></i></a></li></div>
+  <div class="twt" id="yt">                  
+        <li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play fa-lg"></i></a></li></div>
+   <div class="twt" id="fc">                   
+        <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook fa-lg"></i></a></li></div>
+  
+  </ul>
       </div>
+<div style="  color: #666;  padding-bottom: 110px;">رابط اول هنا رابط اول رابط اول هنا رابط اول رابط اول هنا رابط اول</div>
+   
+  
+</div>
+</section>
+<!--end footer section-->
 
       <!-- main js library -->
       <script src="<?= $site_url ?>/media/system/js/mootools-core.js" type="text/javascript"></script>
@@ -130,7 +129,15 @@
       <!-- photo gallery js -->
       <script src="<?= $site_url ?>/assets/plugin/sp_simple_gallery/scripts/slimbox_jquery.js" type="text/javascript"></script>
       
-
+<!-- jQuery -->
+    <script src="<?= $site_url ?>/frontend2/js/jquery.js"></script>
+  <!--  <script src="js/cal-js.js"></script>
+   Bootstrap Core JavaScript -->
+    <script src="<?= $site_url ?>/frontend2/js/bootstrap-rtl.js"></script>
+    <script src="<?= $site_url ?>/frontend2/js/jquery.sticky.js"></script>
+    <script src="<?= $site_url ?>/frontend2/js/owl.carousel.js"></script>
+  <script src="<?= $site_url ?>/frontend2/js/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="<?= $site_url ?>/frontend2/js/jquery.nivo.slider.js"></script>
       <script type="text/javascript">
 //<![CDATA[
 window.addEvent('domready', function() {
@@ -205,8 +212,24 @@ window.addEvent('domready', function() {
 });
 
 
-//]]>      </script>
+   </script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
 
+       <script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+        autoPlay: 3000,
+        items : 6,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3]
+      });
+
+    });
+    </script>
 
    </body>
 </html>

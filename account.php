@@ -31,7 +31,7 @@
               	<!------------------------------------------------------>
               	<!---------------------خيارات الطالبة------------------------>
               	<!------------------------------------------------------>
-              	<? if($result_user['group_id'] == '3') { ?>
+<!--              	--><?// if($result_user['group_id'] == '3') { ?>
                 <li><a href="?do=account-evaluate-educational-environment">تقييم البيئة التعليمية</a> </li>
                 <li><a href="?do=account-postponement-semester">تأجيل الفصل الدراسي</a> </li>
                 <li><a href="library.php">تنزيل مواد دراسية</a> </li>
@@ -51,7 +51,7 @@
               	<!------------------------------------------------------>
               	<!---------------------خيارات الموظف------------------------>
               	<!------------------------------------------------------>
-				<? } elseif($result_user['group_id'] == '4') { ?>
+<!--				--><?// } elseif($result_user['group_id'] == '4') { ?>
                 <li><a href="?do=account-attendance">تحضير الطالبات</a> </li>
                 <li><a href="contact.php">التواصل</a> </li>
                 <li><a href="?do=account-vacation-request">تقديم إجازة</a> </li>
@@ -63,7 +63,7 @@
               	<!------------------------------------------------------>
               	<!---------------------خيارات هيئة التدريب-------------------->
               	<!------------------------------------------------------>
-				<? } elseif($result_user['group_id'] == '6') { ?>
+<!--				--><?// } elseif($result_user['group_id'] == '6') { ?>
                 <li><h4>استمارات الطلاب</h4></li>
                 <li><a href="?do=account-result-transfer-institute">طلبات النقل من معهد</a> </li>
                 <li><a href="?do=account-result-submit-proposal">تقديم شكوى / مقترح</a> </li>
@@ -73,10 +73,10 @@
                 <li><a href="?do=account-result-evaluate-educational-environment">تقييم البيئة التعليمية</a> </li>
                 <li><a href="?do=account-result-postponement-semester">طلبات تأجيل الفصل الدراسي</a> </li>
                 <li><a href="logout.php">تسجيل خروج</a> </li>
-				<? } elseif($result_user['group_id'] == '5') { ?>
+<!--				--><?// } elseif($result_user['group_id'] == '5') { ?>
                 <li><a href="?do=account-vacation-request">تقديم إجازة</a> </li>
                 <li><a href="logout.php">تسجيل خروج</a> </li>
-                <? } ?>
+<!--                --><?// } ?>
               </ul>
             </div>
           </div>

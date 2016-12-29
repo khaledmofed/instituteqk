@@ -58,6 +58,9 @@
       <link rel="stylesheet" href="<?= $site_url ?>/assets/plugin/sp_simple_gallery/scripts/slimbox.css" type="text/css" />
       <!-- twitter css -->
       <link rel="stylesheet" href="<?= $site_url ?>/assets/plugin/sp_tweet/assets/css/sp_tweet.default.css" type="text/css" />
+
+<!-----------khaled css ------------->
+         <link rel="stylesheet" href="<?= $site_url ?>/assets/plugin/sp_tweet/assets/css/sp_tweet.default.css" type="text/css" />
       
       <style>
 	  #sp-header, #sp-bottom {

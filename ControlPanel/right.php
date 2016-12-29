@@ -39,6 +39,7 @@
       <li> <a href="settings.php?do=edit_institutes"><i class="menu-icon fa fa-cog"></i><span class="mm-text">اعددات الموقع</span></a> </li>
       <? } ?>
       <li> <a href="file_manager.php?do=show"><i class="menu-icon fa fa-cog"></i><span class="mm-text">مدير الملفات</span></a> </li>
+      <li> <a href="settings.php?do=edit_institutes"><i class="menu-icon fa fa-cog"></i><span class="mm-text">الصلاحيات</span></a> </li>
       <li class="mm-dropdown"> <a href="#"><i class="menu-icon fa fa-th"></i><span class="mm-text">اعددات القالب</span></a>
         <ul>
           <li> <a tabindex="-1" href="themes.php?do=color"><i class="menu-icon fa fa-th-list"></i><span class="mm-text">الألوان</span></a> </li>
